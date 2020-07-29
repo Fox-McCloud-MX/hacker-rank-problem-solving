@@ -30,7 +30,7 @@ public class AppendAndDelete {
 
         if (!pass) {
             return "NO";
-        }
+        } 
 
         String[] sArray = s.split("");
         String[] tArray = t.split("");
