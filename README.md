@@ -2,4 +2,3 @@
 
 ####Overview.
 Project built in Java 8 to solve problems of HackerRank.com
-
