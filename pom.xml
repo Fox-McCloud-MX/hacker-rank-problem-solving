@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mx</groupId>
-    <artifactId>java8-project-template</artifactId>
+    <artifactId>hacker-rank-problem-solving</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>java8-project-template</name>
+    <name>hacker-rank-problem-solving</name>
     <url>http://maven.apache.org</url>
 
     <properties>
