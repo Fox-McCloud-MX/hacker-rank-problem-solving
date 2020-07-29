@@ -1,3 +1,5 @@
-# Java 8 Project Template
-Single Java 8 Maven Template
+# Hacker Rank - Problem Solving Project
+
+####Overview.
+Project built in Java 8 to solve problems of HackerRank.com
 
