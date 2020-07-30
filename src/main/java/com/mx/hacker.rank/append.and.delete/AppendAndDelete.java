@@ -1,5 +1,7 @@
 package com.mx.hacker.rank.append.and.delete;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class AppendAndDelete {
@@ -30,14 +32,29 @@ public class AppendAndDelete {
 
         if (!pass) {
             return "NO";
-        } 
+        }
 
         String[] sArray = s.split("");
         String[] tArray = t.split("");
 
-        boolean contains = s.contains(t);
+        //validate strings
+        int maxLoopLength = (s.length() < t.length()) ? s.length() : t.length();
+        boolean isSLength = (s.length() > t.length()) ? true : false;
 
-        System.out.println("index of" + contains);
+        String sComplement = "";
+        String tComplement = "";
+        String strFound = "";
+
+        boolean isConcat = false;
+
+        for (int i=0 ; i < maxLoopLength; i++) {
+            if (isSLength) {
+                if (sArray[i].equals(tArray[i])) {
+                    strFound += sArray[i];
+                    isConcat = true;
+                }
+            }
+        }
 
         return "";
     } ;
